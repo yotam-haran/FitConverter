@@ -1,0 +1,33 @@
+{
+    "ts-node": {
+        "files": true
+    },
+    "files": [
+        "src/index.ts",
+        "src/garmin.d.ts"
+    ],
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": [
+            "esnext"
+        ],
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "incremental": true
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.tsx",
+        "garmin.d.ts"
+    ],
+    "exclude": [
+        "**/node_modules"
+    ]
+}

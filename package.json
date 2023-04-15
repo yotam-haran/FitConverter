@@ -1,0 +1,24 @@
+{
+  "name": "fit-converter",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Yotam Haran <yotamharan2@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "convert": "ts-node --esm index.ts"
+  },
+  "dependencies": {
+    "@garmin-fit/sdk": "^21.107.0",
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.5",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.3",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^18.15.11"
+  }
+}
