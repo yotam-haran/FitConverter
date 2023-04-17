@@ -3,8 +3,6 @@ import inquirer from "inquirer";
 import { Decoder, Stream } from "@garmin-fit/sdk"
 import moment from "moment"
 
-console.log(process.argv);
-
 const { entryPoint }: { entryPoint: string } = await inquirer.prompt([
   {
     type: "input",
