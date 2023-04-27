@@ -3,8 +3,8 @@
         "files": true
     },
     "files": [
-        "src/index.ts",
-        "src/garmin.d.ts"
+        "index.ts",
+        "garmin.d.ts"
     ],
     "compilerOptions": {
         "target": "esnext",
